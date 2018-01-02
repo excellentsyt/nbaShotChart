@@ -1,5 +1,6 @@
 @import './styles/TopNavBar.css';
 @import './styles/ShotChart.css';
+@import './styles/Profile.css';
 
 body {
   margin: 0;
