@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShotChart } from "./ShortChart";
+import { ShotChart } from "./ShotChart";
 import nba from 'nba';
 
 export class Main extends React.Component {
