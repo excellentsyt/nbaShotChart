@@ -1,12 +1,12 @@
 import React from 'react';
-import { ShotChart } from "./ShotChart";
 import nba from 'nba';
-import {Profile} from "./Profile"
+import { ShotChart } from './ShotChart';
+import { Profile } from "./Profile";
 
 export class Main extends React.Component {
     state = {
-        playerId: nba.findPlayer("Stephen Curry").playerId,
-        playerInfo: {}
+        playerId: nba.findPlayer('Stephen Curry').playerId,
+        playerInfo: {},
     }
 
     componentDidMount() {
@@ -21,10 +21,10 @@ export class Main extends React.Component {
 
     render() {
         return (
-          <div className="main">
-              <Profile playerId={this.state.playerId} playerInfo={this.state.playerInfo}/>
-              <ShotChart playerId={this.state.playerId}/>
-          </div>
+            <div className="main">
+                <Profile playerId={this.state.playerId} playerInfo={this.state.playerInfo}/>
+                <ShotChart playerId={this.state.playerId}/>
+            </div>
         );
     }
 }
