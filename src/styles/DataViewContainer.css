@@ -6,3 +6,8 @@
     width: 550px;
     margin: auto;
 }
+
+.chart-type-radio {
+    padding-left: 7px;
+    margin-top: 18px;
+}
