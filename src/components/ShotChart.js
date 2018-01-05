@@ -9,7 +9,7 @@ window.d3_hexbin = {hexbin : hexbin}; // workaround library problem
 
 export class ShotChart extends React.Component {
     static propTypes = {
-        playerId: PropTypes.number.isRequired,
+        playerId: PropTypes.number,
         charType: PropTypes.string.isRequired,
         displayToolTips: PropTypes.bool.isRequired,
     }
